@@ -1,0 +1,38 @@
+[
+  {
+    "source": "^Open the website URL\\.$",
+    "steps": [
+      {
+        "name": "Open the website URL.",
+        "aggregatedDurations": {
+          "average": 2.4137801,
+          "median": 2.4137801
+        },
+        "durations": [
+          {
+            "duration": 2.4137801,
+            "location": "src/test/java/Features/sli.search.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^enter a keyword to search\\.$",
+    "steps": [
+      {
+        "name": "enter a keyword to search.",
+        "aggregatedDurations": {
+          "average": 118.0349793,
+          "median": 118.0349793
+        },
+        "durations": [
+          {
+            "duration": 118.0349793,
+            "location": "src/test/java/Features/sli.search.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]
