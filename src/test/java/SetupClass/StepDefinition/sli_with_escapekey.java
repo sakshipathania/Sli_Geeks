@@ -41,7 +41,7 @@ public class sli_with_escapekey extends Setupclass {
 		try {
 			Robot robot = new Robot();
 			robot.keyPress(KeyEvent.VK_ESCAPE);
-			Thread.sleep(3000);
+			//Thread.sleep(3000);
 			robot.keyRelease(KeyEvent.VK_ESCAPE);
 			Thread.sleep(3000);
 		} catch (AWTException e) {
