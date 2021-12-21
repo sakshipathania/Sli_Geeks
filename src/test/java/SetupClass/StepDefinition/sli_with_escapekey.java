@@ -70,10 +70,11 @@ public class sli_with_escapekey extends Setupclass {
 
 	@Then("Click on login button")
 	public void click_on_login_button() throws Throwable {
-		driver.navigate().refresh();
+		
 		WebElement sign_In = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[normalize-space()='Login']")));
-		sign_In.click();
+		js.executeScript("arguments[0].click();", sign_In);
+		//sign_In.click();
 		Thread.sleep(2000);
 	}
 
