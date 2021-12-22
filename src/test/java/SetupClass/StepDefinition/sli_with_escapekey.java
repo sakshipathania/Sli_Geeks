@@ -25,7 +25,7 @@ public class sli_with_escapekey extends Setupclass {
 		driver.manage().deleteAllCookies();
 		Thread.sleep(2000);
 		driver.navigate().refresh();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 	}
 
 	@Then("Enter data in search filed")
@@ -33,7 +33,7 @@ public class sli_with_escapekey extends Setupclass {
 		WebElement search_field = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='search-input']")));
 		search_field.sendKeys("HR");
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 	}
 
 	@Then("press escape key")
