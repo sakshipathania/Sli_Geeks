@@ -119,7 +119,7 @@ public class sli_with_escapekey extends Setupclass {
 
 	@Then("verify the Pop-up")
 	public void verify_the_Pop_up() throws Throwable {
-		try {
+		/*try {
 			Thread.sleep(2000);
 			boolean pop_up_Value1 = driver.findElement(By.xpath("//ul[@id='sli_autocomplete']")).isDisplayed();
 			System.out.println("pop-up is displayed  " + pop_up_Value1);
@@ -135,7 +135,7 @@ public class sli_with_escapekey extends Setupclass {
 			js.executeScript("arguments[0].click();", sign_Out);
 		} catch (InterruptedException e) {
 			
-		}
+		}*/
 	}
 
 }
