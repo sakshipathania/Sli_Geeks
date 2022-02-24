@@ -295,13 +295,13 @@ public class sli_search extends Setupclass{
 	         Most_downloaded.click();
 			Thread.sleep(3000);
 		
-		WebElement Category = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div[3]/div/section[2]/div[2]/span/div[1]/ul/li[1]/a")));
+		WebElement Category = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//ul[@id='facet-cat1']//li[1]")));
 		
 			Thread.sleep(3000);
 	                 Category.click();
 			Thread.sleep(3000);
 		
-		WebElement Stage = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#facet-stages > li:nth-child(3) > input[type=checkbox]")));
+		WebElement Stage = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#facet-stages > li:nth-child(4) > input[type=checkbox]")));
 		js.executeScript("arguments[0].scrollIntoView();",Stage);
 			Thread.sleep(3000);
 	                 Stage.click();
